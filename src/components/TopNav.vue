@@ -2,7 +2,7 @@
   <nav>
     <div class="logo">
       <a href="/">
-        <img src="/algonquin-pet-store.png" alt="Algonquin Pet Store Logo">
+        <img src="/bestbuy-logo.png" alt="BestBuy Logo">
       </a>
       Admin Portal
     </div>
@@ -40,7 +40,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #890808;
+  background-color: #0046be;
   color: #fff;
   padding-top: 0.5rem;
   padding-left: 1rem;
@@ -53,24 +53,24 @@ nav {
   font-size: 1.5rem;
   font-weight: bold;
 }
-
+ 
 nav img {
   padding-right: 15px;
   width: 100px;
   height: auto;
   align-self: center;
 }
-
+ 
 .nav-links {
   display: flex;
   list-style: none;
 }
-
+ 
 .logo {
   display: flex;
   align-items: center;
 }
-
+ 
 .hamburger {
   display: none;
   background: none;
@@ -80,7 +80,7 @@ nav img {
   margin: 0;
   margin-top: -40px;
 }
-
+ 
 .hamburger-icon {
   display: block;
   width: 20px;
@@ -90,7 +90,7 @@ nav img {
   top: 50%;
   transform: translateY(-50%);
 }
-
+ 
 .hamburger-icon::before,
 .hamburger-icon::after {
   content: '';
@@ -101,15 +101,15 @@ nav img {
   position: absolute;
   left: 0;
 }
-
+ 
 .hamburger-icon::before {
   top: -6px;
 }
-
+ 
 .hamburger-icon::after {
   bottom: -6px;
 }
-
+ 
 @media (max-width: 768px) {
   .nav-links {
     display: none;
@@ -117,18 +117,18 @@ nav img {
     top: 100%;
     left: 0;
     right: 0;
-    background-color: #a40c0c;
+    background-color: #333;
     padding: 1rem;
   }
-
+ 
   .nav-links--open {
     display: block;
   }
-
+ 
   .nav-links--open li {
     padding: 0.5rem 0;
   }
-
+ 
   .hamburger {
     display: block;
   }
